@@ -1,0 +1,9 @@
+.icon{
+    font-size: xx-large; 
+    color: aliceblue;
+    display: flex;
+    float: right;
+    z-index: 10;
+    margin-right: 30px;
+    
+}

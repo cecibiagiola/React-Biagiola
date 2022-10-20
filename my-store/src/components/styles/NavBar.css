@@ -1,0 +1,42 @@
+.navBar{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FE0AB7;
+    padding-left: 30px;
+}
+
+.navBar-title{
+    font-size: x-large;
+    float: left;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.item-li{
+    padding: 20px;
+    list-style: none;
+}
+
+.item-li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.item-li a:hover{
+    color: black;
+}
+
+.item-li-active{
+    padding: 20px;
+    list-style: none;
+    float: right;
+    
+}
