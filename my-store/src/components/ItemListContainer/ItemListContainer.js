@@ -1,5 +1,6 @@
-import './styles/ItemListContainer.css';
-import Title from './Title';
+import './ItemListContainer.css';
+import Title from '../Title/Title';
+/* import cepillo from '../img/cepillo.png' */
 
 
  const products = [
@@ -8,7 +9,7 @@ import Title from './Title';
     name: 'Cepillo Donald Trump',
     price: 100,
     description: 'Cepillo para inodoro',
-    image: '../img.cepillo.png'
+    /* image: {cepillo} */
   },
   
   {
@@ -67,12 +68,12 @@ function ItemListContainer() {
   return (
     <div className="container">
       <header className="App-header">
-        <Title greeting='Bienvenido a la Tienda Bizarra'/>
+        <Title greeting='Bienvenido a la Tienda Bizarra'/> {/* no se visualiza el componente Title */}
         <p>
           <div className='products'>
             {products.map((product) => (
             <div key={product.id} className='product-card'>
-             <img src={ product.image } alt={product.name}></img> 
+             <img src={ product.image } alt={product.name}></img> {/* no renderiza las imagenes */}
               
               <h3>{product.name}</h3>
               <p className='description'>{product.description}</p>

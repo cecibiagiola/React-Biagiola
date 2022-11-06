@@ -1,5 +1,5 @@
-import './styles/NavBar.css';
-import  CartWidget  from './CartWidget';
+import './NavBar.css';
+import  CartWidget  from '../CartWidget/CartWidget';
 
 
 function NavBar() {
